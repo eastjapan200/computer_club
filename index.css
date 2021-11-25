@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+:root {
+    --background-color: #0f0e17;
+    --headline-color: #fffffe;
+    --paragraph-color: #a7a9be;
+    --button-color: #ff8906;
+    --button-text-color: #fffffe;
+    --stroke-color: black;
+    --main-color: #fffffe;
+    --highlight-color: #ff8906;
+    --secondary-color: #f25f4c;
+    --tertiary-color: #e53170;
+}
+.align {
+    float:left;
+} 
+.heading {
+    color: var(--tertiary-color);
+    font-size: 2rem;
+    height: 50px;
+    width: 100%;
+    overflow: hidden; 
+    color: var(--headline-color);
+    margin-bottom: 0px;
+    text-align: left ;
+    font-weight: 800;
+    font-family: serif;
+}
+.logo {
+  width:100px;
+  height: 100px;
+}
+body {
+  padding:50px;
+  margin: 0 auto;
+  width:1150px;
+  padding:20px 60px;
+  background-color: var(--background-color);
+  font-family: 'Noto Sans JP',sans-serif;
+  font-weight: 500;
+}
+
+
+.once {
+    color: #fffffe;
+}
+.box2 {
+    color: var(--headline-color);
+}
+.box3 {
+    color: var(--paragraph-color);
+    text-align: left;
+    font-weight: 100;
+    font-size: 20px;
+}
+.box4 {
+    color: var(--headline-color);
+}
+.box5 {
+    color: var(--paragraph-color);
+    text-align: left ;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.box6 {
+    color: var(--headline-color);
+}
+.box7 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.box8 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+    
+}
+.box9 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.box10 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.box11 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.box12 {
+    color: var(--paragraph-color);
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.start {
+    color: var(--headline-color);
+    display: inline;
+    text-align: center ;
+    font-weight: 900;
+    font-family: serif;
+    margin-left: 50px;
+}
+.box01 {
+    color: var(--paragraph-color);
+    text-align: center ;
+    font-weight: 100;
+    font-size: 20px;
+    list-style: none;
+}
+.Gallely {
+    color: var(--paragraph-color)
+} 
+.logo {
+    size: 50px;
+}
+.end {
+    color: var(--paragraph-color);
+    text-align: left ;
+    font-weight: 100;
+    font-size: 10px;
+    list-style: none;
+}
+.slogan {
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: 2rem;
+    height: 50px;
+    width: 100%;
+    overflow: hidden; 
+    color: var(--headline-color);
+    margin-bottom: 0px;
+    float: right;
+    font-weight: 800;
+    font-family: serif;
+}
+.suppera {
+    font-weight: 200;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    justify-content: space-around;
+}
+.profile1 {
+    width: 200px;
+    height: 200px;
+}
+.profile2 {
+    width: 200px;
+    height: 200px;
+}
+.profile3 {
+    width: 200px;
+    height: 200px;
+}
+.profile4 {
+    width: 200px;
+    height: 200px;
+}
+.profile5 {
+    width: 200px;
+    height: 200px;
+}
+.name {
+    border-bottom: 1px solid var(--headline-color);
+}
